@@ -1,0 +1,2 @@
+# This file is used internally by FFMPEG.
+file 'file:F:/Matematicas/Divulgacion/animaciones/Lineal/base vectorial/media/videos/scene/480p15/partial_movie_files/vectores/4266129954_765721135_57121140.mp4'
