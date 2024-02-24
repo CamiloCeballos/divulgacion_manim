@@ -1,4 +1,5 @@
 from manim import *
+from numpy import pi
 
 class screen_coordinates(Scene):
     def construct(self):
@@ -6,10 +7,10 @@ class screen_coordinates(Scene):
         x_line = Line()
         x_line.width = 15
         
-        y_line = Line().rotate(PI/2)
-        y_line.width = 100
+        y_line = Line(start=DOWN, end=UP)
+        y_line.width = 15
+
+        self.add(x_line, y_line)
+
         
-        
-        self.add(x_line)
-        self.add(y_line)
         
